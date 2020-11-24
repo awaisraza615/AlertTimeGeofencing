@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/rgfullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="full name"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rgemail" />
+
+    <EditText
+        android:id="@+id/rgemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="email address"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        app:layout_constraintBottom_toTopOf="@+id/rgpass"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/rgpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="password"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/rgphone"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/rgphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="8976609"
+        android:inputType="phone"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        app:layout_constraintBottom_toTopOf="@+id/rgcountry"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/rgcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="pakistan"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        app:layout_constraintBottom_toTopOf="@+id/rgregister"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/rgregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:text="Register"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-26dp" />
+
+    <ProgressBar
+        android:id="@+id/reprogressbar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

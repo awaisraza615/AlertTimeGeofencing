@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/nav_home"
+android:icon="@drawable/vavhome"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/nav_addpost"
+            android:icon="@drawable/navadd"
+            android:title="Add New Remainder"></item>
+
+    <item
+        android:id="@+id/nav_viewpost"
+        android:icon="@drawable/navcheck"
+        android:title="View Remainder"></item>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/navlogout"
+            android:title="Logout"></item>
+
+    </menu>

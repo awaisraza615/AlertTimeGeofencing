@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "259222600539",
+    "firebase_url": "https://alerttime-e2cdc.firebaseio.com",
+    "project_id": "alerttime-e2cdc",
+    "storage_bucket": "alerttime-e2cdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259222600539:android:440b86b72dcb3c4d54387e",
+        "android_client_info": {
+          "package_name": "com.arenterprize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259222600539-00kvtobdi9egimuup44p967csa7jkp4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arenterprize",
+            "certificate_hash": "423215d62a1a37210dffdd86631c0688a5177f85"
+          }
+        },
+        {
+          "client_id": "259222600539-f9f30bsg1m1p9kjilqfbki34a078r8rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM2ckg4ECQifuGpQ6R_e2WBCdvc7u7qrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259222600539-f9f30bsg1m1p9kjilqfbki34a078r8rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
